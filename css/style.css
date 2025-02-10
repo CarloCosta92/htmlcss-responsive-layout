@@ -210,6 +210,14 @@ header {
     padding-right: 10px; 
 }
 
+h1,
+h2,
+h3,
+h4{
+    font-size: 2rem;
+}
+
+
 
 }
 
@@ -262,6 +270,13 @@ RESPONSIVE PER DESKTOP
 
 .footer-dx{
     text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-size: 3rem;
 }
 
 }
