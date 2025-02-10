@@ -61,6 +61,8 @@ header {
 
 /* main */
 
+
+
 .main-container {
     padding: 25px 25px;
     background-color: #f6f5f3;
@@ -76,6 +78,7 @@ header {
 }
 
 
+/* card */
 
 .inner-container {
     width: 100%;
@@ -94,6 +97,8 @@ img{
     margin-top: 40px;
 }
 
+/* social */
+
 .icon li{
     padding: 15px;
     background-color: #ffffff;
@@ -108,8 +113,17 @@ img{
     
 }
 
+/* banner */
+
 .none-banner{
     display: none;
+}
+
+
+/* recipe */
+
+.img-tiramisu{
+    width: 376px;
 }
 
 /**********
