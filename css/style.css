@@ -14,6 +14,32 @@ li{
     line-height: 30px;
 }
 
+.none{
+    display: none;
+}
+
+.none-icon{
+    display: none;
+}
+
+/* icon color*/
+.fa-facebook{
+    color: #1a77f3;
+}
+.fa-twitter{
+    color: #009eff;
+}
+.fa-instagram{
+    color: #e25e8f;
+}
+.fa-pinterest{
+    color: #ec5858;
+}
+.fa-youtube{
+    color: #e62222;
+}
+
+
 
 
 /* header */
@@ -43,9 +69,7 @@ header {
     color: #4e3969;
 }
 
-.none{
-    display: none;
-}
+
 
 .inner-container {
     width: 100%;
@@ -61,6 +85,19 @@ img{
 
 .info {
     margin-top: 40px;
+}
+
+.icon li{
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: inline-block; 
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;    
+    
 }
 
 /**********
@@ -89,6 +126,12 @@ header {
     width: calc(100%/3);
     flex-wrap: wrap;
     margin-bottom: 20px;
+}
+
+.icon li{
+    flex-grow: 1;
+    margin-right: 10px;
+    text-align: center;
 }
 
 
@@ -122,9 +165,11 @@ RESPONSIVE PER DESKTOP
 }
 
 .spec li{
-    width: 100%;
-     
-    
+    width: 100%;   
+}
+
+.none-icon{
+    display: contents;
 }
 
 }
