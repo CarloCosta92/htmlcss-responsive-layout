@@ -64,7 +64,8 @@ header {
 
 
 .main-container {
-    padding: 25px 25px;
+    max-width: 100%;
+    padding: 3% 10%;
     background-color: #f6f5f3;
     margin: 0 auto;
 }
@@ -76,6 +77,7 @@ header {
 .violet{
     color: #4e3969;
 }
+
 
 
 /* card */
@@ -145,6 +147,7 @@ img{
     color: #ffffff;
     text-align: center;
     padding: 30px 0;
+    width: 100%;
 }
 
 .footer-container ul{
