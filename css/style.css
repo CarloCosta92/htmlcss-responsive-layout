@@ -13,3 +13,25 @@ header {
      text-align: center;
      margin: 25px 0;
 }
+
+/**********
+RESPONSIVE PER TABLET
+**********/
+@media screen and (min-width:768px){
+
+header {
+    text-align: left;
+    
+}
+}
+
+
+
+/**********
+RESPONSIVE PER DESKTOP
+**********/
+@media screen and (min-width:992px){
+    
+}
+
+
