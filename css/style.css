@@ -131,7 +131,7 @@ img{
 }
 
 .img-tiramisu{
-    width: 376px;
+    /* width: 376px; */
     margin: 0 auto;
     display: block;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);   
@@ -210,7 +210,10 @@ header {
     padding-right: 10px; 
 }
 
-h1,
+h1{
+    font-size: 2.5rem;
+}
+
 h2,
 h3,
 h4{
@@ -272,7 +275,8 @@ RESPONSIVE PER DESKTOP
     text-align: right;
 }
 
-h1,
+h1{font-size: 3.5rem;}
+
 h2,
 h3,
 h4{
