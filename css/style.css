@@ -122,8 +122,19 @@ img{
 
 /* recipe */
 
+.article{
+    margin-top: 25px;
+}
+
+.article p{
+    line-height: 30px;
+}
+
 .img-tiramisu{
     width: 376px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);   
 }
 
 /**********
@@ -164,6 +175,15 @@ header {
     margin: 30px 0;
     width: 100%;
     display: block;
+}
+
+.img-tiramisu{
+    width: 376px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); 
+    float: left; 
+    padding-right: 10px; 
 }
 
 
