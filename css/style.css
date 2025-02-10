@@ -14,6 +14,24 @@ header {
      margin: 25px 0;
 }
 
+.main-container {
+    padding: 25px 25px;
+    background-color: #f6f5f3;
+    margin: 0 auto;
+}
+
+#LIGHT {
+    color: #a599a5;
+}
+
+.violet{
+    color: #4e3969;
+}
+
+.none{
+    display: none;
+}
+
 /**********
 RESPONSIVE PER TABLET
 **********/
@@ -23,6 +41,10 @@ header {
     text-align: left;
     
 }
+
+.none{
+    display: contents;
+}
 }
 
 
@@ -31,7 +53,7 @@ header {
 RESPONSIVE PER DESKTOP
 **********/
 @media screen and (min-width:992px){
-    
+
 }
 
 
