@@ -8,6 +8,9 @@
 }
 
 /* common*/
+body {
+    font-family: "Montserrat", serif;
+}
 
 li{
     list-style-type: none   ;
@@ -56,7 +59,13 @@ header {
      font-style: normal;
      color: #ff9614;
      text-align: center;
-     margin: 25px 0;
+     padding: 25px;
+     
+}
+
+.logo{
+    text-shadow:1px 1px 3px rgba(0, 0, 0, 0.3);
+
 }
 
 /* main */
@@ -64,7 +73,7 @@ header {
 
 
 .main-container {
-    max-width: 100%;
+    max-width: 1350px;
     padding: 3% 10%;
     background-color: #f6f5f3;
     margin: 0 auto;
@@ -87,12 +96,13 @@ header {
     background-color: #ffffff;
     margin: 35px 0;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 img{
     width: 100%;
-    /* height: 100%; */
-    
+        
 }
 
 .info {
@@ -133,7 +143,7 @@ img{
 }
 
 .img-tiramisu{
-    /* width: 376px; */
+    width: 376px;
     margin: 0 auto;
     display: block;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);   
@@ -218,8 +228,7 @@ h1{
 }
 
 h2,
-h3,
-h4{
+h3{
     font-size: 2rem;
 }
 
@@ -239,6 +248,8 @@ RESPONSIVE PER DESKTOP
 .inner-container{
     display: flex;
     flex-wrap: nowrap;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 5px;
 }
 
 .info {
@@ -283,7 +294,7 @@ h1{font-size: 3.5rem;}
 h2,
 h3,
 h4{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 }
